@@ -1,6 +1,6 @@
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-    font-family: sans-serif;
+    font-family: cursive;
     padding: 20px;
   }
   
@@ -29,7 +29,21 @@ body {
     margin-right: auto;
     padding: 20px;
     max-width: 500px;
+    border-radius: 25px ;
   }
+
+  .menu:hover{
+    background-color: beige;
+    padding: 30px;
+    transition: all 1s ease;
+  }
+  
+  .menu:hover .flavor,.menu:hover .dessert{
+    font-family:cursive;
+    font-size: 20px;
+    transition: all 1s ease;
+  }
+
   
   img {
     display: block;
